@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    background: rgba(99, 73, 51, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: hidden;
+    border-bottom-right-radius: 33px;
+    position: fixed;
+    width: 100%;
+    height: 160px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0 2px 5px black;
+
+}
+
+header h3 {
+    color: #f3e6d0;
+    position: relative;
+    display: block;
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+    text-align: center;
+    width: 50%;
+    margin-left: 300px; 
+    bottom: 60%;
+    
+}
+
+.logo {
+    background: rgba(202, 150, 92, 0.8);
+    width: 115px;
+    height: 115px;
+    margin-top: 20px;
+    border: 1px hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+}
+
+.logo img {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 8px;
+    margin-top: 8px;    
+}
+
+
+
+nav li {  
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    float: right;
+    position: relative;
+    bottom: 80px;
+    width: 280px;
+    height: 40px;
+    
+}
+
+nav a {
+    background-color: #634933;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    margin-right: 8px;
+    border: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #CA965C;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    background-color: #CA965C;
+    padding: 20px 0 20px 0;
+    box-shadow: 5px 0 10px black;
+}
+
+.background {
+    background-image: url(../img/background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    min-height: 400px;
+}
+
+.container h2 {
+    margin-bottom: 5px;
+}
+
+.formContainer {
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(126, 94, 57, 0.5);
+    box-shadow: 0 0 5px black;
+    height: 440px;
+}
+
+.formContainer input {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0 0 3px black;
+    border: hidden;
+    border-radius: 3px;
+}
+
+.formContainer textarea {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #634933;
+    color: white;
+}
+
+.topo {
+    color: white;
+}

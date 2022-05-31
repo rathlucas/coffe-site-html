@@ -12,13 +12,18 @@
   background-color: rgba(202, 150, 92);
 }
 
+iframe {
+  width: 100%;
+  min-height: 300px;
+}
+
 .rth-shadow {
   box-shadow: 0 2px 4px black;
 }
 
 .rth-font {
   font-family: 'dancing script', cursive;
-  font-size: 10vh;
+  font-size: 3em;
 }
 
 .rth-header-color {
@@ -49,7 +54,6 @@
 
 .rth-footer {
   background-color: rgba(99, 73, 51, 1);
-  width: 100%;
   min-height: 50px;
   box-shadow: 0 -2px 3px black;
 }
